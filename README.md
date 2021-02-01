@@ -7,10 +7,22 @@ It provides simple bio-inspired neuron models which
 are integrated into PyTorch, a popular deep learning library.
 This allows you to develop large scale deep-learning models
 with spiking neurons quickly.
-We will start with a brief hands-on introduction that
-explain the basics of the library and get you from zero
-to a training model within minutes. Subsequently, we will break
-out into smaller groups centered on topics of interest
-to workshop participants. Suggested topics are: Event based
-vision processing, (meta-)plasticity, reinforcement learning,
-and memory.
+
+
+## Overview of Workshop Notebooks
+
+- Encoding - experiment with encoding of data to spikes 
+- High Performance Computing - learn how to train spiking neuron models with PyTorch Lightning and scale to HPC
+- Single Neuron Experiments - learn more about Norse by experimenting with a single neuron
+- Stochastic Computing - explore stochastic computing with spiking neurons
+- Parameter Learning - explore how to optimise neuron parameters
+
+You are also encouraged to explore the other example [tasks](github.com/norse/norse/task/) and
+tutorial [notebooks](github.com/norse/norse/task/), aswell as our [documentation](norse.ai/docs).
+
+
+
+
+
+
+
