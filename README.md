@@ -18,7 +18,7 @@ with spiking neurons quickly.
 - Parameter Learning - explore how to optimise neuron parameters
 
 You are also encouraged to explore the other example [tasks](https://github.com/norse/norse/task/) and
-tutorial [notebooks](https://github.com/norse/norse/notebooks/), aswell as our [documentation](https://norse.ai/docs).
+tutorial [notebooks](https://github.com/norse/notebooks/), aswell as our [documentation](https://norse.ai/docs).
 
 
 
