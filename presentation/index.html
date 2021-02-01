@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/serif.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -16,8 +16,59 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Norse: Deep Learning with Spiking Neural Networks</h2>
+					<h3>Christian Pehle</h3>
+				</section>
+<section>
+	<p><img src="norse_logo.png" style="width: 50%; height: auto;"/>
+</section>
+<section>
+	<p><img src="pytorch_logo.png" style="width: 50%; height: auto;"/>
+	<h2 style="text-align: center;">+</h2>
+	<h2 style="text-align: center; font-family: Avenir;">⚡️ Spikes</h2>
+	</p>
+</section>
+<section>
+<pre><code data-trim data-noescape data-line-numbers="|4,6-7,9-11,13|5,8,12">
+import torch.nn as nn
+						
+model = nn.Sequential(
+	nn.Conv2d(3, 20, 5, 1),
+	nn.ReLU(),
+	nn.MaxPool2d(2, 2),
+	nn.Conv2d(20, 50, 5, 1),
+	nn.ReLU(),
+	nn.MaxPool2d(2, 2),
+	nn.Flatten(),
+	nn.Linear(800, 500),
+	nn.ReLU(),
+	nn.Linear(500, 10),
+)
+</code></pre>
+</section>
+<section>
+<pre><code data-trim data-noescape data-line-numbers="|1-4|7,9-10,12-14,16|8,11,15,17">
+import torch.nn as nn
+from norse.torch import LICell             
+from norse.torch import LIFCell
+from norse.torch import SequentialState
+						
+model = SequentialState(
+	nn.Conv2d(3, 20, 5, 1),
+	LIFCell(),
+	nn.MaxPool2d(2, 2),
+	nn.Conv2d(20, 50, 5, 1),
+	LIFCell(),
+	nn.MaxPool2d(2, 2),
+	nn.Flatten(),
+	nn.Linear(800, 500),
+	LIFCell(),
+	nn.Linear(500, 10),
+	LICell(),
+)
+</code></pre>
+</section>
 			</div>
 		</div>
 

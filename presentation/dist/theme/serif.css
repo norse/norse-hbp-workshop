@@ -80,6 +80,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   letter-spacing: normal;
   text-transform: none;
   text-shadow: none;
+  text-align: left;
   word-wrap: break-word; }
 
 .reveal h1 {
@@ -196,7 +197,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
+  max-height: 500px;
   word-wrap: normal; }
 
 .reveal table {
