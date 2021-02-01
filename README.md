@@ -9,6 +9,7 @@ with spiking neurons quickly.
 
 ## Overview of Workshop Notebooks
 
+- Introduction - Notebook used during the presentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/norse/norse-hbp-workshop/blob/master/introduction-to-norse.ipynb)
 - Encoding - experiment with encoding of data to spikes [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/norse/norse-hbp-workshop/blob/master/encoding.ipynb)
 - High Performance Computing - train models with PyTorch Lightning and learn how to scale to HPC [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/norse/norse-hbp-workshop/blob/master/high-performance-computing.ipynb)
 - Single Neuron Experiments - learn more about Norse by experimenting with a single neuron [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/norse/norse-hbp-workshop/blob/master/single-neuron-experiments.ipynb)
