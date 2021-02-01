@@ -1,18 +1,16 @@
 # norse-hbp-workshop
 
-This workshop will teach you to quickly solve interesting
-problems using the spiking neural network library, Norse. Norse
+This workshop will let you explore Norse. Norse
 lets you do deep-learning with spiking neural networks.
 It provides simple bio-inspired neuron models which
 are integrated into PyTorch, a popular deep learning library.
 This allows you to develop large scale deep-learning models
 with spiking neurons quickly.
 
-
 ## Overview of Workshop Notebooks
 
-- Encoding - experiment with encoding of data to spikes 
-- High Performance Computing - learn how to train spiking neuron models with PyTorch Lightning and scale to HPC
+- Encoding - experiment with encoding of data to spikes [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/norse/norse-hbp-workshop/blob/master/encoding.ipynb)
+- High Performance Computing - learn how to train spiking neuron models with PyTorch Lightning and scale to HPC [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/norse/norse-hbp-workshop/blob/master/high-performance-computing.ipynb)
 - Single Neuron Experiments - learn more about Norse by experimenting with a single neuron
 - Stochastic Computing - explore stochastic computing with spiking neurons
 - Parameter Learning - explore how to optimise neuron parameters
