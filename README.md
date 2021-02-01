@@ -17,8 +17,8 @@ with spiking neurons quickly.
 - Stochastic Computing - explore stochastic computing with spiking neurons
 - Parameter Learning - explore how to optimise neuron parameters
 
-You are also encouraged to explore the other example [tasks](github.com/norse/norse/task/) and
-tutorial [notebooks](github.com/norse/norse/task/), aswell as our [documentation](norse.ai/docs).
+You are also encouraged to explore the other example [tasks](https://github.com/norse/norse/task/) and
+tutorial [notebooks](https://github.com/norse/norse/notebooks/), aswell as our [documentation](https://norse.ai/docs).
 
 
 
